@@ -1,7 +1,10 @@
 
 import React, { useState } from "react";
+interface Props {
+  text: string,
+}
 
-function Text(props:any) {
+function Text(props: Props) {
   return <div style={{ color: "green" }}>{props.text}</div>;
 }
 
